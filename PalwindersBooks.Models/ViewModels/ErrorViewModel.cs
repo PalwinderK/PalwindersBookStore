@@ -1,6 +1,6 @@
 using System;
 
-namespace PalwindersBookStore.Models
+namespace PalwindersBookStore.Models.ViewModels
 {
     public class ErrorViewModel
     {
