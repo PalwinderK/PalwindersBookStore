@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalwindersBooks.DataAccess"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalwindersBooks.Models", "PalwindersBooks.Models\PalwindersBooks.Models.csproj", "{741C3A48-A463-43EF-8999-60DD7100D492}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalwindersBooks.Utility", "PalwindersBooks.Utility\PalwindersBooks.Utility.csproj", "{C151D6D2-FA5E-413A-AD2A-1099FB31299F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{741C3A48-A463-43EF-8999-60DD7100D492}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{741C3A48-A463-43EF-8999-60DD7100D492}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{741C3A48-A463-43EF-8999-60DD7100D492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C151D6D2-FA5E-413A-AD2A-1099FB31299F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C151D6D2-FA5E-413A-AD2A-1099FB31299F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C151D6D2-FA5E-413A-AD2A-1099FB31299F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C151D6D2-FA5E-413A-AD2A-1099FB31299F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
