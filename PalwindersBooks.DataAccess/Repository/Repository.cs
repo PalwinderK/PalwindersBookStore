@@ -1,5 +1,5 @@
-﻿using AndrewsBooks.DataAccess.Repository.IRepository;
-using AndrewsBookStore.DataAccess.Data;
+﻿using PalwindersBooks.DataAccess.Repository.IRepository;
+using PalwindersBookStore.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace AndrewsBooks.DataAccess.Repository
+namespace PalwindersBooks.DataAccess.Repository
 {
     // Implements all the methods of the IRepository
     public class Repository<T> : IRepository<T> where T : class
