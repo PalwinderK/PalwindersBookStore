@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalwindersBookStore", "PalwindersBookStore\PalwindersBookStore.csproj", "{4CB0ED9C-654E-415F-A982-15208EB168DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalwindersBooks.DataAccess", "PalwindersBooks.DataAccess\PalwindersBooks.DataAccess.csproj", "{3BBC0DC4-AD68-4272-80E4-4E4C768E4106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalwindersBooks.Models", "PalwindersBooks.Models\PalwindersBooks.Models.csproj", "{741C3A48-A463-43EF-8999-60DD7100D492}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4CB0ED9C-654E-415F-A982-15208EB168DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CB0ED9C-654E-415F-A982-15208EB168DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CB0ED9C-654E-415F-A982-15208EB168DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBC0DC4-AD68-4272-80E4-4E4C768E4106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBC0DC4-AD68-4272-80E4-4E4C768E4106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBC0DC4-AD68-4272-80E4-4E4C768E4106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBC0DC4-AD68-4272-80E4-4E4C768E4106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741C3A48-A463-43EF-8999-60DD7100D492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741C3A48-A463-43EF-8999-60DD7100D492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741C3A48-A463-43EF-8999-60DD7100D492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741C3A48-A463-43EF-8999-60DD7100D492}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
