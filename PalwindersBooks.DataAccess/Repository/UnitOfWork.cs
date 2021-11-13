@@ -8,7 +8,7 @@ using System.Text;
 
 namespace PalwindersBooks.DataAccess.Repository
 {
-    public class UnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly ApplicationDbContext _db;
 

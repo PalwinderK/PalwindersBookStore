@@ -1,5 +1,4 @@
-//using PalwindersBookStore.Data;
-//using PalwindersBooks.DataAccess.Repository;
+
 using PalwindersBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -14,6 +13,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using PalwindersBooks.DataAccess.Repository;
+using PalwindersBooks.DataAccess.Repository.IRepository;
 //using PalwindersBooks.DataAccess.Repository;
 
 
@@ -38,7 +39,7 @@ namespace PalwindersBookStore
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            //services.AddScoped<IUnitOfWok, UnitOfWork>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 
