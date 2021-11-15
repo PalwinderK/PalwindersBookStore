@@ -76,6 +76,7 @@ Then added a connection to the database and updated implementations.(9:11pm)
 Added a new interface called IUnitOfWork to IRepository folder and updated the code.(9:21pm)
 Then modified the startup.cs file and ran the project.(9:25pm)
 That's it for the part-2 and updated the github repo.(9:29pm)
+On Thursday I added CategoryController and Index View files and modified them
 
 
 
