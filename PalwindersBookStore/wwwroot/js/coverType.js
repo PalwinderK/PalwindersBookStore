@@ -16,10 +16,10 @@ function loadDataTable() {
                 "render": function (data) {
                     return `
                             <div class="text-center">
-                                <a href="/Admin/CoverType/Upsert/$(data)" class="btn btn-success text-black" style="cursor:pointer">
+                                <a href="/Admin/CoverType/Upsert/${data}" class="btn btn-success text-black" style="cursor:pointer">
                                     <i class="fas fa-edit"></i>&nbsp;
                                 </a>
-                                <a class="btn btn-danger text-black" style="cursor:pointer">
+                                <a onclick=Delete("/Admin/CoverType/Delete/${data}") class="btn btn-danger text-black" style="cursor:pointer">
                                     <i class="fas fa-trash-alt"></i>&nbsp;
                                 </a>
                             </div>
