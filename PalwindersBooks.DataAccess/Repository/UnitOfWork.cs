@@ -1,4 +1,5 @@
 ﻿using PalwindersBooks.DataAccess.Repository.IRepository;
+using PalwindersBooks.Models;
 using PalwindersBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -18,10 +19,14 @@ namespace PalwindersBooks.DataAccess.Repository
             _db = db;
             Category = new CategoryRepository(_db);
             SP_Call = new SP_Call(_db);
+            CoverType = new CoverTypeRepository(_db);
         }
 
         public ICategoryRepository Category { get; private set; }
         public ISP_Call SP_Call { get; private set; }
+        public ICoverTypeRepository CoverType { get;}
+
+        //public ICoverTypeRepsitory CoverType { get; }
 
         public void Dispose()
         {
