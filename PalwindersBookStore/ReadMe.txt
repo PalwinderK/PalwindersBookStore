@@ -4,6 +4,7 @@ Proffessor: Andrew Steele
 Project : PalwindersBookStore
 
 Part-1 2021-11-08
+
 I started my project on 21-11-01(5:00pm).
 But I was having some errors so I restarted my entire project on Monaday (21-11-08)(5:30pm).
 Firstly, I created the projects and named it PalwindersBookStore.(5:32pm)
@@ -51,6 +52,8 @@ Then modified viewStart and ran the application.(11:56pm)
 Added the new admin area in areas and then added the view files into it and deleted the data and models folder.(12:05)
 Also deleted the controllers folder from the main project.(12:20am)
 Updated the github repository.(12:30am)
+I completed part one in six hours.
+
 
 Part-2 2021-11-09
 
@@ -77,6 +80,55 @@ Added a new interface called IUnitOfWork to IRepository folder and updated the c
 Then modified the startup.cs file and ran the project.(9:25pm)
 That's it for the part-2 and updated the github repo.(9:29pm)
 On Thursday I added CategoryController and Index View files and modified them.(11:19am)
+I almost spand three hours for part-2. 
+
+
+Part-3 2021-11-21
+
+I firstly added Product Controller.(9:00pm)
+Then, I added IWebHostEvironment call and its using statement to the Microsoft.(9:09pm)
+Afterthat, I created ViewModel in the Models project and selected list for Category and CoverType.(9:17pm)
+Nextly, I Modified the ProductVM class and installed the Microsoft.AspNetCore.Mvc. ViewFeatures package.(9:26pm)
+Then again modified the ProductController and included the using statement to the ViewModels folder.(9:43pm)
+Then I Modified the API call to include the Category and coverType Properties.(9:54pm)
+Furthermore, I added an Index view and copy the index.cshtml code from View/Category.(10:07pm)
+Then, added some properties and reference a new product.js file.(10:19pm)
+Afterthat, copied nad pasted the category.js and renamed to product.js.(10:25pm)
+Then I modified the_layout.cshtml to add a new link to product.(10:30pm)
+Then I created the Cover Type CRUD and added CoverType.cs in the models folder.(10:32pm)
+Nextly, I added CoverType to the Repository.(10:35pm)
+Added CoverTypeRepository Class.(10:37pm)
+Added ICoverTypeRepository Interface.(10:42pm)
+Added CoverType to UnitOfWork and IUnitofWork.(10:57pm)
+And Pushed CoverType to the Database.(11:02pm)
+Then Created migrations and Updated the Database.(11:07pm)
+Furthermore, performed CRUD operations on Cover Type.(11:13pm)
+Then added Cover Type to NavBar.(11:18pm)
+Added Covertype Controller with all required Action Methods.(11:23pm)
+And Then deleted CoverType using the API Call.(11:25pm)
+Then I added a new class in the .Models project.(11:28pm)
+Then I added the code to build the blueprint.(11:30pm)
+Afterthat, I checked for errors.(11:32pm)
+Then I added reference to the new products piece to the database in the ApplicationDbContext.cs file.(11:37pm)
+Nextly, In the PM Console, I ran the add-migration command for an addProductToDb migration and updated database. (11:40pm)
+Then I Updated the product class and created new migrations and updated the database.
+Then, Added Product to the repository.(11:43pm)
+Then Add IProductRepository interface.(11:47pm)
+Then Added ProductRepository Class and also added Product to UnitOfWork and IUnitofWork.(11:50pm)
+Lastly, I built and checked for the errors and updated the github repo.(11:54pm)
+I done my part-3 in three hours.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
