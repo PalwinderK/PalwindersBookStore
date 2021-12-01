@@ -22,4 +22,8 @@
     <ProjectReference Include="..\PalwindersBooks.Utility\PalwindersBooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\products\" />
+  </ItemGroup>
+
 </Project>
