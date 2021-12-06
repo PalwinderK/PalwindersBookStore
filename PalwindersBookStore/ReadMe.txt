@@ -118,6 +118,22 @@ Then Added ProductRepository Class and also added Product to UnitOfWork and IUni
 Lastly, I built and checked for the errors and updated the github repo.(11:54pm)
 I done my part-3 in three hours.
 
+Part-4 04-12-2021
+
+Firstl, I compared my code with the given code under the part four.(5:19pm)
+then I did some modifications in my code.(5:57pm)
+Then I check the output and got an exception for covertype and product.(6:02pm)
+Then, I tried to resolve it but did not get exact output.(6:25pm)
+I almost spend one and half hour to resolve the issue.
+
+-------06-12-2021------
+
+I again tried to resolve that issue but again disappointed.(spand one hour)
+lastly, Updated github repo.
+
+
+
+
 
 
 

@@ -31,7 +31,8 @@ namespace PalwindersBooks.DataAccess.Repository
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
                 sqlCon.Open();
-                sqlCon.Execute(procedurename, param, commandType: System.Data.CommandType.StoredProcedure);
+                int v = sqlCon.Execute(procedurename, param, commandType: System.Data.CommandType.StoredProcedure);
+                _ = v;
             }
         }
 
