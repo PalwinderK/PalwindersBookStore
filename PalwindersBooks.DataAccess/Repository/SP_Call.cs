@@ -40,7 +40,9 @@ namespace PalwindersBooks.DataAccess.Repository
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
                 sqlCon.Open();
-                return sqlCon.Query<T>(procedurename, param, commandType: System.Data.CommandType.StoredProcedure);
+                return sqlCon.Query<T>(procedurename,
+                                       param,
+                                       commandType: System.Data.CommandType.StoredProcedure);
             }
         }
 

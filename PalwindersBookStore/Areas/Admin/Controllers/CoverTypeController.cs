@@ -72,7 +72,7 @@ namespace PalwindersBookStore.Areas.Admin.Controllers
 
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.SP_Call.List<CoverType>(SD.Proc_CoverType_GetAll, null);
+            IEnumerable<CoverType> allObj = _unitOfWork.SP_Call.List<CoverType>(SD.Proc_CoverType_GetAll, null);
             return Json(new { data = allObj });
         }
 
