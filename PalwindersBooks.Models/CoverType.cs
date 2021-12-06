@@ -14,7 +14,7 @@ namespace PalwindersBooks.Models
 
         public int ID { get; set; }
 
-        [Display(Name = "CoverType Name")]
+        [Display(Name = "Cover Type")]
         [Required]
         [MaxLength(50)]
 
